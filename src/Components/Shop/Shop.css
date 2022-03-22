@@ -3,3 +3,14 @@
   grid-template-columns: 4fr 1fr;
   padding: 10px 20px;
 }
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+/* .order-container {
+  background-color: orange;
+} */
