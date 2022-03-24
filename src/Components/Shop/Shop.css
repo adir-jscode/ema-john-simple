@@ -1,7 +1,6 @@
 .shop-container {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  padding: 10px 20px;
 }
 
 .product-container {
@@ -11,6 +10,8 @@
   padding: 10px 20px;
 }
 
-/* .order-container {
-  background-color: orange;
-} */
+.order-container {
+  position: sticky;
+  background-color: #ff99004d;
+  margin: 0;
+}
